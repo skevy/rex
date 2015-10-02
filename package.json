@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "@exponent/rex",
   "license": "BSD-3-Clause",
   "description": "REX is a tool that takes your JavaScript source files and serves a bundle that you deploy to clients.",
