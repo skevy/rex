@@ -30,6 +30,10 @@ Tasks we need help on:
 
 Please open up an issue if you start working on one of these so that we can efficiently work together.
 
+## Lore
+
+The name REX comes from React EXpress, deliverer of packages.
+
 ## License
 
 The packager is derived from the React Native project. It's [license](./LICENSE-ReactNative) and [patent grants](./PATENTS-ReactNative) are included in this repository. There is also a [BSD license](./LICENSE) for code that is not from React Native.
