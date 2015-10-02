@@ -10,7 +10,7 @@
 
 const createCacheKeyFunction = require('fbjs-scripts/jest/createCacheKeyFunction');
 const path = require('path');
-const transformer = require('../packager/transformer.js');
+const transformer = require('../src/transformer.js');
 
 module.exports = {
   process(src, file) {
@@ -29,7 +29,7 @@ module.exports = {
 
   getCacheKey: createCacheKeyFunction([
     __filename,
-    path.join(__dirname, '../packager/transformer.js'),
+    path.join(__dirname, '../src/transformer.js'),
     path.join(__dirname, '../node_modules/babel-core/package.json'),
   ]),
 };

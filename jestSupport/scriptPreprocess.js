@@ -8,7 +8,7 @@
  */
 'use strict';
 
-var transformer = require('../packager/transformer.js');
+var transformer = require('../src/transformer.js');
 
 function transformSource(src, filename) {
   return transformer.transform(src, filename).code;

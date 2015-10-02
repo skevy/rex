@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "@exponent/rex",
+  "name": "rex",
   "license": "BSD-3-Clause",
   "description": "REX is a tool that takes your JavaScript source files and serves a bundle that you deploy to clients.",
   "repository": {
@@ -12,6 +12,7 @@
     "node": ">=4"
   },
   "jest": {
+    "scriptPreprocessor": "jestSupport/preprocessor.js",
     "setupEnvScriptFile": "jestSupport/env.js",
     "testPathIgnorePatterns": [
       "/node_modules/"
@@ -20,11 +21,12 @@
       "js"
     ],
     "unmockedModulePathPatterns": [
+      "promise",
       "source-map"
     ]
   },
   "scripts": {
-    "test": "jest",
+    "test": "NODE_ENV=test jest",
     "lint": "eslint src",
     "start": "src/packager.sh"
   },
