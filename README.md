@@ -2,6 +2,15 @@
 
 REX is a tool that takes your JavaScript source files and serves a bundle that you deploy to clients. It is a standalone version of the packager included with [React Native](https://github.com/facebook/react-native). If you need a JavaScript packager without the rest of React Native, this is your tool.
 
+## Installation
+
+Install REX from npm:
+```
+npm i @exponent/rex
+```
+
+You can start the packager by running `node_modules/rex/src/packager.sh`. I realize this isn't ideal. It's just how things work right now 😅
+
 ## Collaborating
 
 We welcome collaborators, especially if you're interested in building tools that keep this repository in sync with the upstream React Native project.
