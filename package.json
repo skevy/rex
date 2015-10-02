@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "rex",
+  "name": "@exponent/rex",
   "license": "BSD-3-Clause",
   "description": "REX is a tool that takes your JavaScript source files and serves a bundle that you deploy to clients.",
   "repository": {
@@ -58,7 +58,7 @@
   "devDependencies": {
     "babel-eslint": "^4.1.3",
     "eslint": "^1.5.1",
-    "jest-cli": "^0.5.8",
+    "jest-cli": "ide/jest#scoped-packages",
     "portfinder": "^0.4.0"
   }
 }
