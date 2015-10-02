@@ -9,7 +9,7 @@ Install REX from npm:
 npm i @exponent/rex
 ```
 
-You can start the packager by running `node_modules/rex/src/packager.sh`. I realize this isn't ideal. It's just how things work right now 😅
+You can start the packager by running `node_modules/@exponent/rex/src/packager.sh`. I realize this isn't ideal. It's just how things work right now 😅
 
 ## Collaborating
 
