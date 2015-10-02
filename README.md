@@ -1,4 +1,4 @@
-# REX
+# REX [![Build Status](https://travis-ci.org/exponentjs/rex.svg?branch=master)](https://travis-ci.org/exponentjs/rex)
 
 REX is a tool that takes your JavaScript source files and serves a bundle that you deploy to clients. It is a standalone version of the packager included with [React Native](https://github.com/facebook/react-native). If you need a JavaScript packager without the rest of React Native, this is your tool.
 
