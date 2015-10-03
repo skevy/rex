@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Changed this line! Should cause a conflict
 # Copyright (c) 2015-present, Facebook, Inc.
 # All rights reserved.
 #
